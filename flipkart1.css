@@ -1,0 +1,962 @@
+body{
+	background-color:#EAEFF2;
+}
+*{
+	margin:0;
+	font-family:Arial;
+	border:border-box;
+}
+.navbar{
+	height:70px;
+	background-color:white;
+	display:flex;
+	align-items:center;
+	
+	
+}
+.navbar-logo{
+	height:50px;
+	width:100px;
+	position:absolute;
+	left:100px;
+	
+}
+.logo{
+	background-image:url("Flipkart-logo.png");
+	background-size:cover;
+	height:50%;
+	width:100%;
+	
+	
+}
+.explore-plus{
+	display:flex;
+	
+}
+.explore{
+	font-style:italic;
+	font-weight:bold;
+	color:#BABABA;
+	font-size:0.85rem;
+}
+.plus{
+	font-style:italic;
+	margin-left:5px;
+	font-weight:bold;
+	color:#eb9e34;
+	font-size:0.85rem;
+}
+.searchbar{
+	height:40px;
+	width:400px;
+	display:flex;
+	position:absolute;
+	left:250px;
+	
+}
+.search-icon{
+	height:47px;
+	width:40px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:#BABABA;
+	font-size:1.30rem;
+	background-color:#EBF4FA;
+	border:none;
+	border-radius:5px 0px 0px 5px;
+}
+.input-bar{
+	height:45px;
+	width:270px;
+	background-color:#EBF4FA;
+	font-size:0.95rem;
+	border:none;
+	border-radius:0px 5px 5px 0px;
+}
+.icons{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
+	right:40px;
+}
+.user{
+	height:40px;
+	width:100px;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	font-size:1.20rem;	
+	border-radius:10px 10px 10px 10px;
+}
+.user:hover{
+	background-color:blue;
+	color:white;
+	
+}
+.shopping{
+	font-size:1.20rem;
+	margin-left:10px;
+}
+.three-dots{
+	height:40px;
+	width:50px;
+	font-size:1.20rem;
+	margin-left:30px;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.three-dots:hover{
+	background-color:#EAEFF2;
+	border:1px solid #BABABA;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+.brands{
+	height:170px;
+	background-color:white;
+	margin:10px 15px 0px 15px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.grocery{
+	height:140px;
+	width:140px;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.grocery2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+	
+}
+
+.photos{
+	background-image:url("surf.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+.phone{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.phone2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+}
+.photo2{
+	background-image:url("phone.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+.people{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.people2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+	
+}
+.photo3{
+	background-image:url("fashion.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+
+.laptop{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.laptop2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+}
+.photo4{
+	background-image:url("laptop.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+
+.home{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.home2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+}
+.photo5{
+	background-image:url("chair.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+.content5{
+	height:34px;
+	width:74px;
+	display:inline-block;
+	
+}
+.tv{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.tv2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+}
+.photo6{
+	background-image:url("tv.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+.aeroplane{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.aeroplane2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+}
+.photo7{
+	background-image:url("aeroplane.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+
+.toys{
+	height:140px;
+	width:140px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.toys2{
+	text-align:center;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	color:#333333;
+}
+.photo8{
+	background-image:url("manypoko.png");
+	background-size:cover;
+	width:80px;
+	height:80px;
+	display:block;
+	
+}
+.content8{
+	height:30px;
+	width:80px;
+	display:inline-block;
+}
+.ads{
+	height:200px;
+	
+	margin:20px 15px 0px 15px;
+	background-image:url("ads.jpg");
+	background-size:cover;
+	
+}
+.top-offers{
+	height:350px;
+	background-color:white;
+	margin:15px 15px 0px 15px;
+}
+.back-dev{
+	height:80px;
+
+	margin:0px 15px 0px 15px;
+	display:flex;
+	justify-content:space-between;
+	
+
+}
+.heading-top{
+	height:80px;
+	display:flex;
+	color:#2E2E2E;
+	align-items:center;
+	font-size:1.20rem;
+	
+	
+}
+
+.chevron-right{
+	height:40px;
+	width:40px;
+	background-color:#2E2EFF;
+	border:1px solid black;
+	color:white;
+	font-size:1.20rem;
+	border-radius:100px;
+	margin-top:15px;
+	position:absolute;
+	right:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.brands2{
+	height:250px;
+	
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+/* box 1*/
+.redmi{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.redmi-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.redminotepro{
+	background-image:url("redminotepro.png");
+	background-size:cover;
+	margin-top:10px;
+	height:160px;
+	width:130px;
+}
+.mobile-name{
+	font-family:sans-serif;
+	font-size:1.10rem;
+	line-height:30px;
+	color:#5C5C5C;
+	font-weight:normal;
+}
+.incl-offers{
+	font-family:sans-serif;
+	font-size:1rem;
+	line-height:25px;
+	color:#454545;
+	font-weight:bold;
+}
+
+/* box 2*/
+.realme{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.realme-phone{
+	height:180px;
+	display:flex;
+	align-items:center;
+	
+	
+}
+.realme10pro{
+	background-image:url("realme10pro.png");
+	background-size:cover;
+	height:200px;
+	width:180px;
+	margin-top:2px;
+}
+/* box 3*/
+
+.oppo{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	background-color:pink;
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.oppo-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.opporeno{
+	background-image:url("opporeno.png");
+	background-size:cover;
+	margin-top:10px;
+	height:170px;
+	width:130px;
+}
+
+/* box 4*/
+
+.moto{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.moto-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.motog{
+	background-image:url("motog.png");
+	background-size:cover;
+	margin-top:10px;
+	height:160px;
+	width:130px;
+}
+
+
+/* FOOTER*/
+.footer{
+	height:550px;
+	margin-top:25px;
+	background-color:black;
+	display:block;
+}
+.box1{
+	height:200px;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	
+	
+}
+.about{
+	height:200px;
+	width:200px;
+	margin:20px 0px 0px 15px;
+	margin-top:50px;
+}
+.about-heading{
+	font-size:0.95rem;
+	font-family:sans-serif;
+	line-height:30px;
+	color:#737373;
+	
+}
+.details{
+	line-height:20px;
+	font-weight:bold;
+	font-size:0.75rem;
+	color:#FFFFFF;
+	
+}
+.box2{
+	height:240px;
+	
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	
+	
+}
+.line{
+	margin-top:50px;
+	height:0.1px;
+	background-color:white;
+}
+.last{
+	margin-top:10px;
+	height:50px;
+	display:flex;
+	align-items:center;	
+	color:white;
+	font-size:0.60rem;
+	
+	
+	
+}
+.last-content{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+
+}
+.space{
+	display:flex;
+	margin-left:25px;
+}
+.advertise{
+		display:flex;
+}
+.gift{
+	display:flex;
+}
+.help{
+	display:flex;
+}
+.copyright{
+	display:flex;
+}
+.payment{
+	background-image:url("payment-method.jpg");
+	background-size:cover;
+	height:30px;
+	width:480px;
+	margin-left:10px;
+}
+.colored{
+	color:#fcad03;
+	margin-right:10px;
+}
+.data{
+	margin-top:20px;
+}
+/*fhfhdfjdhfdhf*/
+.camera{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.camera-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.cameranotepro{
+	background-image:url("camera.png");
+	background-size:cover;
+	margin-top:10px;
+	height:160px;
+	width:160px;
+}
+.mobile-name{
+	font-family:sans-serif;
+	font-size:1.10rem;
+	line-height:30px;
+	color:#5C5C5C;
+	font-weight:normal;
+}
+.incl-offers{
+	font-family:sans-serif;
+	font-size:1rem;
+	line-height:25px;
+	color:#454545;
+	font-weight:bold;
+}
+.printer{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.printer-phone{
+	height:180px;
+	display:flex;
+	align-items:center;
+	
+	
+}
+.printer10pro{
+	background-image:url("printers.png");
+	background-size:cover;
+	margin-left:25px;
+	height:50px;
+	width:150px;
+	margin-top:2px;
+}
+
+
+.moniter{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	background-color:pink;
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.moniter-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.moniterreno{
+	background-image:url("moniter.png");
+	background-size:cover;
+	margin-top:10px;
+	height:100px;
+	width:120px;
+}
+
+.trimmer{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.trimmer-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.trimmerg{
+	background-image:url("trimmer.png");
+	background-size:cover;
+	margin-top:10px;
+	margin-right:20px;
+	height:160px;
+	width:130px;
+
+}
+
+/* BEAuty food more 4*/
+
+.excersize{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.excersize-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.excersizenotepro{
+	background-image:url("excercise.png");
+	background-size:cover;
+	margin-top:10px;
+	height:160px;
+	width:150px;
+}
+.mobile-name{
+	font-family:sans-serif;
+	font-size:1rem;
+	line-height:30px;
+	color:#5C5C5C;
+	font-weight:normal;
+}
+.incl-offers{
+	font-family:sans-serif;
+	font-size:1rem;
+	line-height:25px;
+	color:#454545;
+	font-weight:bold;
+}
+
+
+/* box 2*/
+.cycle{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.cycle-phone{
+	height:180px;
+	display:flex;
+	align-items:center;
+	
+	
+}
+.cycle10pro{
+	background-image:url("cycle.png");
+	background-size:cover;
+	height:100px;
+	width:150px;
+	margin-top:2px;
+	margin-left:20px;
+}
+/* box 3*/
+
+.stationary{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	background-color:pink;
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.stationary-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.stationaryreno{
+	background-image:url("stationary.png");
+	background-size:cover;
+	margin-top:10px;
+	height:160px;
+	width:130px;
+}
+
+
+
+.helmet{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.helmet-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.helmetg{
+	background-image:url("helmet.png");
+	background-size:cover;
+	margin-top:10px;
+	height:160px;
+	width:130px;
+}
+
+
+/*--SPORTS HEALTH CARE & MORE-->*/
+
+.remotecar{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.remotecar-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.remotecarnotepro{
+	background-image:url("remotecar.png");
+	background-size:cover;
+	margin-top:10px;
+	height:120px;
+	width:130px;
+}
+
+
+/* box 2*/
+.microphone{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.microphone-phone{
+	height:180px;
+	display:flex;
+	align-items:center;
+	
+	
+}
+.microphone10pro{
+	background-image:url("microphone.png");
+	background-size:cover;
+	height:160px;
+	width:90px;
+	margin-top:2px;
+	margin-left:50px;
+}
+/* box 3*/
+
+.motul{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	background-color:pink;
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.motul-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.motulreno{
+	background-image:url("motul.png");
+	background-size:cover;
+	margin-top:10px;
+	height:140px;
+	width:80px;
+}
+
+/* box 4*/
+
+.oats{
+	height:240px;
+	width:200px;
+	border-radius:5px;
+	
+	display:block;
+	text-align:center;
+	background-color:white;
+	border:1px solid #D1D0D0;
+	
+}
+.oats-phone{
+	height:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.oatsg{
+	background-image:url("oats.png");
+	background-size:cover;
+	margin-top:10px;
+	height:150px;
+	width:70px;
+}
+
+
+
+
+
+
